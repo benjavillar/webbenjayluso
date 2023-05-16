@@ -1,0 +1,23 @@
+form{
+    display: flex;
+    align-content: center;
+    width: 300px;
+}
+
+
+
+
+.register{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration;
+    color: white;
+    background-color: rgb(32, 207, 32);
+}
+.register:hover {
+    background-color: rgb(46, 184, 46);
+}
+.register:active{
+    background-color: #29962a;
+}

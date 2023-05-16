@@ -1,0 +1,142 @@
+
+body{
+    background-image:url(Fondo\ pagina.jpg);
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Pacifico', cursiva;
+}
+
+.encabezado {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.benjilu{
+    width: 200px;
+    height: 150px;
+}
+.Tabla{
+    flex-direction: row;
+    background-color: blueviolet;
+    flex-wrap: nowrap;
+    font-size: larger;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursiva;
+  
+}
+.Tabla li a {
+    padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}   
+
+.data{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    height: 30px;
+    justify-content: space-between;
+}
+.logo img{
+    width: 100px;
+    height:100px;
+}
+
+.menu{
+    background-color: green;
+   display: flex;
+}
+.imagennoticia{
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+.texto1{
+    display: flex;
+
+}
+   
+
+.noticia1{
+    display: flex;
+}
+h2{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu2{
+    display: flex;
+    justify-content: start;
+}
+.tabladeposiciones{
+   display: flex;
+    width: 1000000px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.posiciones { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #e7eee8;
+        color: rgb(0, 0, 0);
+    }
+       tbody {
+        color: rgb(0, 0, 0);
+    }
+       tfoot {
+        color: rgb(0, 0, 0);
+    }
+       table, td, tr {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+      table{
+          width: 20%;
+    }
+    
+    /*Formulario*/
+
+    form{
+        background-color:rgb(255, 255, 255);
+        margin:auto;
+        padding:5%;
+        width: 300px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 15px;
+        
+    }
+    
+    .register{
+        border-radius: 3px;
+        display: inline-block;
+        padding: 15px 10px;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(32, 207, 32);
+        margin: 10px;
+        margin-left: 30px;
+        width: 200px;
+        
+    }
+    .register:hover {
+        background-color: rgb(46, 184, 46);
+    }
+    .register:active{
+        background-color: #29962a;
+    }
+
+     input{
+        width: 100%;
+        height: 50px;
+        border-color: rgb(86, 87, 86);
+ 
+        
+    }

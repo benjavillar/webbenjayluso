@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+    <div class="formulario">
+      <form id="form" >
+        <p>Nombre:</p>
+        <input type="text" name="nombre" placeholder="Ej:Juan Garcia" required class="caja">
+        <p>Correo Electronico:</p>
+        <input type="text" name="email" placeholder="Ej:juangarcia@gmail" required class="caja">
+        <p>Contraseña</p>
+        <input type="password" name="contrasenia" placeholder="contraseña" required class="caja">
+        <button class="register" id="sumbit" >
+            Registrarse
+           </button>
+        <p>Verifique no ser robot</p>
+        <p id="captchavalue"></p> 
+        <input type="text" value="" id="respuestausuario" placeholder="Ingrese el Numero">            
+        <input type="button" id="btn-enviar" value="Enviar">
+        <p id="resultadoform"></p>
+
+      </form>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
